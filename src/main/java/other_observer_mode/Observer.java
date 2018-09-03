@@ -1,4 +1,4 @@
-package entrust_observer_mode;
+package other_observer_mode;
 
 /**
  * Created on 2018/9/2 15:19

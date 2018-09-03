@@ -1,10 +1,10 @@
-package entrust_observer_mode;
+package other_observer_mode;
 
 /**
  * Created on 2018/9/2 15:39
  * User: HC
  */
-public class NBAObserver implements Observer {
+public class CartonObserver implements Observer {
     /**
      * <pre>
      * <b> Author:  HuCheng Date 2018/9/2 15:20 </br> </b>
@@ -17,7 +17,7 @@ public class NBAObserver implements Observer {
      */
     @Override
     public void update(Subject subject, Object data) {
-        System.out.println(String.format(" 我是: %s, %s 别看NBA 了！", this.getClass().getSimpleName(),data));
+        System.out.println(String.format(" 我是: %s, %s 别看漫画 了！", this.getClass().getSimpleName(),data));
 
     }
 }
